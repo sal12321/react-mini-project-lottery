@@ -1,0 +1,27 @@
+.ticket-num{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:70px;
+    height:70px;
+
+    font-size:24px;
+    font-weight:bold;
+
+    color:white;
+
+    background:linear-gradient(145deg,#ff4d4d,#ff1a1a);
+
+    border-radius:50%;
+
+    box-shadow:
+        0 6px 12px rgba(0,0,0,0.3),
+        inset 0 2px 5px rgba(255,255,255,0.4);
+
+    transition:all 0.25s ease;
+}
+
+.ticket-num:hover{
+    transform:scale(1.15) rotate(8deg);
+}
